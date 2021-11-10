@@ -17,7 +17,7 @@ section {
 header {
     padding: 20px 35px;
     background-color: #2E374D;
-    background-image: url("/Assets/images/engin-akyurt-RFt2XrTJllM-unsplash.jpg");
+    background-image: url("/Develop/Assets/images/background.jpg");
     background-size: cover;
     background-position: 100%;
     background-attachment: fixed;
@@ -71,7 +71,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("/Assets/images/engin-akyurt-RFt2XrTJllM-unsplash.jpg");
+    background-image: url("/Develop/Assets/images/background.jpg");
     background-size:cover;
     background-position: 100%;
     background-attachment: fixed;
@@ -176,7 +176,7 @@ header nav ul li a:hover {
 }
 
 .contact {
-    background-image: url(/Assets/images/engin-akyurt-RFt2XrTJllM-unsplash.jpg);
+    background-image: url("/Develop/Assets/images/background.jpg");
     height: 300px;
     background-size: cover;
     background-position: 80%;
@@ -193,7 +193,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-image: url(/Assets/images/engin-akyurt-RFt2XrTJllM-unsplash.jpg);
+    background-image: url("/Develop/Assets/images/background.jpg");
     height: 100px;
     background-size: cover;
     background-position: 80%;
