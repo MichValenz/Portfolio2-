@@ -14,8 +14,8 @@ Michelle Valemzuela's Portfolio is a webpage that highlights Michelle's work and
 * Added CSS features to make it a responsive website
 
 ## Links
-* [Link to the deployed website]()
-* [Link to the code repository](https://github.com/MichValenz/Portfolio)
+* [Link to the deployed website](https://michvalenz.github.io/Portfolio2-/)
+* [Link to the code repository](https://github.com/MichValenz/Portfolio2-)
 
 ## Installation
 Upload all files, including index.html and style.css
