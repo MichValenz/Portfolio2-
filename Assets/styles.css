@@ -71,7 +71,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("Assets/images/background.jpg");
+    background-image: url(Assets/images/background.jpg);
     background-size:cover;
     background-position: 100%;
     background-attachment: fixed;
@@ -201,7 +201,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-image: url(Assets/images/background.jpg);
+    background-image: url("/Assets/images/background.jpg";
     height: 100px;
     background-size: cover;
     background-position: 80%;
