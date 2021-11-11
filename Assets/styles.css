@@ -17,7 +17,7 @@ section {
 header {
     padding: 20px 35px;
     background-color: #2E374D;
-    background-image: url("/Develop/Assets/images/background.jpg");
+    background-image: url(/Assets/images/background.jpg);
     background-size: cover;
     background-position: 100%;
     background-attachment: fixed;
@@ -71,7 +71,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("/Develop/Assets/images/background.jpg");
+    background-image: url(/Assets/images/background.jpg);
     background-size:cover;
     background-position: 100%;
     background-attachment: fixed;
@@ -87,8 +87,10 @@ header nav ul li a:hover {
 
 
 .me {
- background: #E4E9FB;
+ background-color: #E4E9FB;
  background-position: 100%;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+
 }
 
 .me-details {
@@ -106,6 +108,7 @@ header nav ul li a:hover {
     padding: 5px;
     border-bottom: solid 3px #E39875;
     flex: 1 80%;
+    color:#2E374D
 }
 
 
@@ -120,15 +123,18 @@ header nav ul li a:hover {
 
 
 .big-bend {
-    width: 40%;
+    width: 50%;
     box-shadow: 0 0 10px;
-    border-radius: 15px;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
     
 }
 
 .work-examples {
 
-  margin: 20px auto;
+  margin: 10px auto;
   padding-bottom: 50px;
   width: 80%;
   display: flex;
@@ -176,24 +182,26 @@ header nav ul li a:hover {
 }
 
 .contact {
-    background-image: url("/Develop/Assets/images/background.jpg");
+    background-image: url(/Assets/images/background.jpg);
     height: 300px;
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
     width: 100%;
     display: flex;
-    align-items: left;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 .contact-info h3 {
     color: #2E374D;
     font-size: 25px;
+    
 
 }
 
 footer {
-    background-image: url("/Develop/Assets/images/background.jpg");
+    background-image: url(/Assets/images/background.jpg);
     height: 100px;
     background-size: cover;
     background-position: 80%;
