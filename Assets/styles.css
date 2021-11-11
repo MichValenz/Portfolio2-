@@ -17,7 +17,7 @@ section {
 header {
     padding: 20px 35px;
     background-color: #2E374D;
-    background-image: url("Assets/images/background.jpg");
+    background-image: url("./Assets/images/background.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
