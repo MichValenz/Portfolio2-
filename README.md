@@ -3,7 +3,7 @@
 ## Description
 Michelle Valemzuela's Portfolio is a webpage that highlights Michelle's work and contact information.
 
-![screenshot of Portfolio website](/Develop/Assets/images/Screenshot_portfolio.png)
+![screenshot of Portfolio website](/Assets/images/Screenshot_portfolio.png)
 
 
 ## Tasks Completed
