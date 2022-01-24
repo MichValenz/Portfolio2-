@@ -16,8 +16,8 @@ section {
 
 header {
     padding: 20px 35px;
-    background-color: #2E374D;
-    background-image: url("./images/background.jpeg");
+    background-color: #e0e0e0;
+    background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
@@ -71,7 +71,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("./images/background.jpeg");
+    background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
@@ -87,7 +87,7 @@ header nav ul li a:hover {
 
 
 .me {
- background-color: #E4E9FB;
+ background-color: #d6d6d8;
  background-position: 100%;
  box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 
@@ -182,7 +182,7 @@ header nav ul li a:hover {
 }
 
 .contact {
-    background-image: url("./images/background.jpeg");
+    background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
     height: 300px;
     background-size: cover;
     background-position: 80%;
@@ -201,7 +201,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-image: url("./images/background.jpeg");
+    background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
     height: 100px;
     background-size: cover;
     background-position: 80%;
