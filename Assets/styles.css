@@ -1,96 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: #2E374D;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #2e374d;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
-    padding: 30px;
+  padding: 30px;
 }
 
-
 header {
-    padding: 20px 35px;
-    background-color: #e0e0e0;
-    background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-
+  padding: 20px 35px;
+  background-color: #e0e0e0;
+  background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 40px;
-    color: #2E374D;
-    margin: 0;
-    
+  font-weight: bold;
+  font-size: 40px;
+  color: #2e374d;
+  margin: 0;
 }
 
 header a {
-    text-decoration: none;
-    color: #2E374D;
+  text-decoration: none;
+  color: #2e374d;
 }
 
 header nav {
-    margin: 7px 0;
+  margin: 7px 0;
 }
 
- header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight:lighter;
-    font-size: 1.75vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.75vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 header nav ul li a:hover {
-  background: #E4E9FB;
-  color: #2E374D;
+  background: #e4e9fb;
+  color: #2e374d;
   border-radius: 15px;
   text-shadow: none;
 }
 
 .hero {
-    background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 200px;
-    
-
+  background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 200px;
 }
 
-
-
 .me {
- background-color: #d6d6d8;
- background-position: 100%;
- box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
-
+  background-color: #d6d6d8;
+  background-position: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .me-details {
@@ -104,36 +96,30 @@ header nav ul li a:hover {
 }
 
 .me-details h2 {
-    font-size: 30px;
-    padding: 5px;
-    border-bottom: solid 3px #E39875;
-    flex: 1 80%;
-    color:#2E374D
+  font-size: 30px;
+  padding: 5px;
+  border-bottom: solid 3px #e39875;
+  flex: 1 80%;
+  color: #2e374d;
 }
-
-
 
 .info-text p {
-    color: #2E374D;
-    font-size: 18px;
-    padding: 10px;
-    line-height: 1.5;
-
+  color: #2e374d;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 1.5;
 }
 
-
 .big-bend {
-    width: 50%;
-    box-shadow: 0 0 10px;
-    border-radius: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px auto;
-    
+  width: 50%;
+  box-shadow: 0 0 10px;
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
 }
 
 .work-examples {
-
   margin: 10px auto;
   padding-bottom: 50px;
   width: 80%;
@@ -141,88 +127,76 @@ header nav ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-
-
-  
 }
 
 .website-title {
-    text-align: center;
-    color: #2E374D;
-    font-size: 25px;
-    font-weight:lighter;
-    font-style: italic;
+  text-align: center;
+  color: #2e374d;
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
 }
- 
+
 .work-1 a img {
-    height: 300px;
-    width: 350px;
-    border:#E39875 solid 3px;
-    margin: 10px;
-    border-radius: 15px;
-
-    
+  height: 300px;
+  width: 350px;
+  border: #e39875 solid 3px;
+  margin: 10px;
+  border-radius: 15px;
 }
 
-
-.work-2 a img {
+/* .work-2 a img {
     height: 200px;
     width: 300px;
     border:#E39875 solid 3px;
     margin: 10px;
     border-radius: 15px;
-}
+} */
 
 .work-3 a img {
-    height: 200px;
-    width: 300px;
-    border:#E39875 solid 3px;
-    margin: 10px;
-    border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  border: #e39875 solid 3px;
+  margin: 10px;
+  border-radius: 15px;
 }
 
 .contact {
-    background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
-    height: 300px;
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+  background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .contact-info h3 {
-    color: #2E374D;
-    font-size: 25px;
-    
-
+  color: #2e374d;
+  font-size: 25px;
 }
 
 footer {
-    background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
-    height: 100px;
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    padding: 15px;
+  background-image: url("./images/taiki-ishikawa-y0jKNcwsDcM-unsplash.jpg");
+  height: 100px;
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  padding: 15px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  
-  }
-
+}
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-  
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  
 }
 
 @media screen and (max-width: 980px) {
@@ -247,11 +221,9 @@ footer {
     font-size: 20px;
   }
 
-
-
   .me-details {
-      flex: 1 70%;
-      text-align: center;
+    flex: 1 70%;
+    text-align: center;
   }
 
   .me-info {
@@ -260,29 +232,22 @@ footer {
     justify-content: center;
   }
 
-    .work-examples {
+  .work-examples {
     flex: 1 100%;
     text-align: center;
     justify-content: center;
-
+  }
 }
-}
 
-
-  
 @media screen and (max-width: 768px) {
-
   section {
     padding: 30px 15px;
-  }  
+  }
 
   header h1 {
     align-content: center;
-  
-    text-align: center;
 
-   
-    
+    text-align: center;
   }
 
   header nav ul {
@@ -290,13 +255,10 @@ footer {
     justify-content: center;
   }
 
-
   .me-details {
-      
-    flex:1 ;
+    flex: 1;
     text-align: center;
     justify-content: center;
-
   }
 
   .me-info {
@@ -306,24 +268,19 @@ footer {
   }
 
   .work-examples a img {
-      flex:0;
+    flex: 0;
   }
 
-    .work-examples {
+  .work-examples {
     flex: 10 100%;
     text-align: center;
     justify-content: center;
-
-}
+  }
 }
 
 @media screen and (max-width: 575px) {
-
-
   .me-details {
-      flex:0 100%;
-      
-     
+    flex: 0 100%;
   }
 
   .me-info {
@@ -331,12 +288,7 @@ footer {
     padding: 3px;
   }
 
-
-.work-examples {
-   flex: 0 100%;
-
-}
-
-
-
+  .work-examples {
+    flex: 0 100%;
+  }
 }
